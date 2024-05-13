@@ -84,4 +84,23 @@ b{
     margin-left: auto;
     display: flex;
 }
-.user_activity{}
+.notification_card{
+    display: flex;
+    
+}
+.notification_card img{
+    justify-content: space-between;
+}
+
+
+@media (max-width: 575.98px) and (max-width: 991.98px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-b;
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+ 
